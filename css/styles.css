@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 14px; }
+
+div, h2, span {
+  display: block;
+  margin: 5px 0; }
+
+h2 {
+  font-size: 18px;
+  line-height: 16px;
+  margin: 0 0 5px 0; }
+
+.jobs {
+  list-style: none;
+  position: relative;
+  width: 300px;
+  height: 205px; }
+  .jobs-item {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; }
+  .jobs-div {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 10px; }
+  .jobs-img {
+    margin: 0 10px 5px 0;
+    float: left; }
+  .jobs-type {
+    margin-top: 0;
+    padding: 7px 10px 5px;
+    display: block;
+    background: #26ae61;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-align: center; }
